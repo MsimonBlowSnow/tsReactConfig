@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './App.scss'
+import './App.less'
 
 import Login from './pages/login';
 function App() {
