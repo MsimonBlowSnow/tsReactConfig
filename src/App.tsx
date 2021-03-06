@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import './App.less'
-
-import Login from './pages/login';
+import { Button,message} from 'antd'
+// import Login from './pages/login';
 function App() {
+  useEffect(() => {
+    // message. ('adfadfsa');
+    message.success('hjlhjkkhaldfjaskdlhfadfa',10000000000);
+    console.log(1)
+  }, [])
   return (
     <div className="App">
-      <Login />
+      {/* <Login /> */}
+      <Button>click</Button>
     </div>
   );
 }
